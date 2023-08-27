@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Registration form</title>
+	<link rel="Stylesheet"href="form.css">
+</head>
+<body>
+	<style>
+		lable{
+			display: block;
+			padding: 10px;
+		}
+		body{
+			text-align: center;
+			background-color: lightpink;
+		}
+		form{
+			background-color: skyblue;
+			margin-left: 200px;
+			margin-right: 200px;
+			border-radius:10% ;
+		}
+		.btn{
+			padding:10px;
+		}
+		input[type=submit]{
+			background-color: yellowgreen;
+		}
+		input[type=submit]: haver{
+			background-color: orange;
+			cursor: pointer;
+		}
+	</style>
+	<form>
+	<h1>Registration Form</h1>
+	<div class="container">
+		<lable for="name">NAME</lable>
+		<input type="text" name="name"required>
+		<lable for="email">E-MAIL</lable>
+		<input type="email"name="email"required>
+		<lable for="password">PASSWORD</lable>
+		<input type="password"name="password"required>
+		<lable for="phone number">PHONE NUMBER</lable>
+		<input type="tel"name="phone number"required>
+		<lable for="gender">GENDER</lable>
+		<select id="GENDER">
+			<option value="male"name="male">MALE</option>
+			<option value="female"name="female">FEMALE</option>
+			<option value="other"name="other">OTHER</option>
+		</select>
+		<lable for="zipcode">ZIPCODE</lable>
+		<input type="text"name="zipcode"required>
+		<lable for="about">ABOUT</lable>
+		<input type="textarea"name="textarea"required>
+		<div class="btn">
+			<input type="submit"value="REGISTER">
+		</div>
+	</div>
+</form>
+</body>
+</html>
